@@ -8,8 +8,10 @@
  
  const App: React.FC = () => {
      const [display, setDisplay] = useState<string>('0');
+ }
 @@ .. @@
      return (
+     )
 -        <div className="min-h-screen flex items-center justify-center p-4">
 -            <div className="w-full max-w-sm mx-auto bg-black rounded-3xl p-6 shadow-2xl space-y-6">
 -                <div className="text-right text-white font-light text-7xl p-4 break-words">
